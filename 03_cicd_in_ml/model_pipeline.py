@@ -70,7 +70,7 @@ def register_model(model):
                              sk_model=model,
                              artifact_path="ice_cream")
 
-if __name__ == "__main__" :
+if __name__ == "__main__"  :
     X, y = load_data()
     X_train, X_test, y_train, y_test = split_data(X, y)
     model = model_train(X_train, y_train)
