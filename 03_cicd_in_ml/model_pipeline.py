@@ -8,7 +8,7 @@ import mlflow
 import mlflow.sklearn
 
 # Start MLflow tracking]
-mlflow.set_tracking_uri("http://127.0.0.1:5000") # Change this IP, according to your MLFlow UI deployment
+mlflow.set_tracking_uri("http://10.0.2.2:5000") # Change this IP, according to your MLFlow UI deployment
 mlflow.set_experiment("Icecream_sale") # Change this experiment name, accordingly
 
 def load_data():
